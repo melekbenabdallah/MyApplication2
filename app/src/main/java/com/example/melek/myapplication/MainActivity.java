@@ -14,16 +14,6 @@ public class MainActivity extends AppCompatActivity {
     EditText editTextLogin ;
     EditText editTextPassword ;
 
-    public void login (View view){
-        if(editTextLogin.getText().toString().equals("")|| editTextPassword.getText().toString().equals("")) {
-            Log.i("INFO", "EMPTY input");
-            Toast.makeText(MainActivity.this, "Champ vide", Toast.LENGTH_SHORT).show();
-        }
-        else{
-            //envoyer vers la 2eme activity
-        }
-    }
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
